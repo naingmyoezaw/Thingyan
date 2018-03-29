@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lso.naing.thingyan.MainActivity"
+    android:background="@drawable/bg3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+    <Button
+        android:id="@+id/song1"
+        android:onClick="sonClick"
+        android:textColor="#ffffff"
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/btn_background"
+        android:text="သၾကၤန္အိမ္မက္ \nေတးဆို - လႊမ္းပိုင္ + Bobby Soxer" />
+
+        <Button
+            android:id="@+id/song2"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_background"
+            android:onClick="sonClick"
+            android:text="အားကိုးမယ္ေနာ္ \nေတးဆို - ဘရိတ္ကီ+ေမ" />
+            <Button
+                android:id="@+id/song3"
+                android:onClick="sonClick"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:text="ေကာင္ေလးသနားစရာပဲ\nေတးဆို - ေ၀လွ်ံ + ဆူဇီ" />
+
+            <Button
+                android:id="@+id/song4"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:onClick="sonClick"
+                android:text="ေရနန္းဗဟိုရ္\nေတးဆို -   အိမ့္ခ်စ္" />
+
+            <Button
+                android:id="@+id/song5"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:onClick="sonClick"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:text="ခ်စ္စရာေကာင္းတဲ့ဓလ့ရိုး\nေတးဆို - ပိုပို" />
+
+            <Button
+                android:id="@+id/song6"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:onClick="sonClick"
+                android:text="သတိေတာ့ထား\nေတးဆို -ဟဲေလး" />
+            <Button
+                android:id="@+id/song7"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:onClick="sonClick"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:text="ဗံုဗံုဗံု \n ေတးဆို-၀ိုင္းစုခိုင္သိန္း" />
+
+            <Button
+                android:id="@+id/song8"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:onClick="sonClick"
+                android:text="ျဖည္းျဖည္းပတ္\nေတးဆို - အိမ့္ခ်စ္" />
+
+            <Button
+                android:id="@+id/song9"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:onClick="sonClick"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:text="မ်က္လံုးေလးကိုအရွိန္ထိန္းပါ \n ေတးဆို-ဟဲေလး + ဂ်င္းနီ" />
+
+            <Button
+                android:id="@+id/song10"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:onClick="sonClick"
+                android:text="ေဟာ့ေတာ့\nေတးဆို- No" />
+            <Button
+                android:id="@+id/song11"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:onClick="sonClick"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:text="တုန္ဘူးဆိုပက္\n ဆုန္သင္းပါရ္" />
+
+            <Button
+                android:id="@+id/song12"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:onClick="sonClick"
+                android:text="တစ္ေယာက္တည္းဆိုစိတ္မခ်လို့\nေတးဆို- ေနေဒြး + ေမျမတ္ႏိုး" />
+
+            <Button
+                android:id="@+id/song13"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:onClick="sonClick"
+                android:text="ကမၻာသစ္ေတး\nေတးဆို- ရဲေလး" />
+            <Button
+                android:id="@+id/song14"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:onClick="sonClick"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:text="လက္ကေလးဆြဲထား\nေတးဆို- ဟဲေလး + ေဂးေဂး" />
+
+            <Button
+                android:id="@+id/song15"
+                android:textColor="#ffffff"
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_background"
+                android:onClick="sonClick"
+                android:text="သၾကၤန္ေရစိုတဲ႕ တယ္လီဖုန္း\nေတးဆို- ထြန္းရတီ" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
